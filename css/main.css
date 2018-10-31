@@ -5,13 +5,9 @@ html {
 }
 
 a {
-  font-weight: 100;
   text-decoration:;
   color: #fff;
   font-style: normal;
-}
-
-h1 {
 }
 
 .back {
@@ -27,6 +23,14 @@ hr {
   border-width: 2px;
 }
 
+.project {
+  color: #fff;
+}
+
+a:hover {
+  color: #C7DA2C;
+}
+
 .about {
   font-weight: 100;
 }
@@ -36,7 +40,6 @@ hr {
 }
 
 footer {
-  font-weight: 100;
   background-color: #161616;
 }
 
