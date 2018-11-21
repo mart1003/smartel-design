@@ -1,94 +1,45 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-<meta charset="utf-8">
-<title>Geometric Illustrations</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="handheldfriendly" content="true">
-<meta name="mobileoptimized" content="240">
-<link href="css/modules.css" rel="stylesheet">
-<link href="css/grid.css" rel="stylesheet">
-<link href="css/type.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-</head>
-<body>
+---
+layout: default
+---
 
-<main>
-
-  <main>
+  <main id="main">
     <div class="banner grid">
       <div class="unit s-1 m-1 l-1-3">
         <div class="grid">
+          <div>
+            <a class="back unit island" href="{{site.baseurl}}/index"> < Home </a>
+          </div>
           <div class="unit s-1 m-1 banner-text banner-box island">
-            <h1 class="tena ">Geometric<br>Illustrations</h1>
+            <h1 class="tena">Geometric<br>Illustrations</h1>
             <hr class=""><br>
             <div class="push-2">
-              <div>
-                <a class="back mega bold" href="index.html"> < home </a>
-              </div>
             </div>
           </div>
 
           <div class="unit s-1 m-1 island">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<p>
+              <p>This was a personal project that I worked on outside of school. I wanted to experiment with the combination of photography and a geometric illustrative style. The goal was to superimpose the illustrations in a way that gives them a physical presence in the photo. I was pleased with how the series turned out, and look forward to creating more.<p>
           </div>
         </div>
       </div>
 
-
       <div class="unit s-1 m-1 l-2-3">
         <div class="push-2 embed embed-3by2">
-          <img class="embed-item" src="images/geoparrot.jpg">
+          <img class="embed-item" src="{{site.baseurl}}/images/geoparrot.jpg" alt="Geometric Parrot">
         </div>
 
         <div class="push-2 embed embed-3by2">
-          <img class="embed-item" src="images/geoblackbird.jpg">
+          <img class="embed-item" src="{{site.baseurl}}/images/geoblackbird.jpg" alt="Geometric Blackbird">
         </div>
 
         <div class="push-2 embed embed-2by3">
-          <img class="embed-item" src="images/geoosprey.jpg">
+          <img class="embed-item" src="{{site.baseurl}}/images/geoosprey.jpg" alt="Geometric Osprey">
         </div>
       </div>
     </div>
 
-    <footer class="micro pad-t pad-b">
-
-
-      <div class="text-center push-1-2">
-        <div class="icons inline-block">
-          <a href="https://twitter.com/ScottyMartel">
-            <i class="icon i-32">
-              <img class="img-flex" src="images/twitter-icon-white.svg">
-            </i>
-          </a>
-        </div>
-
-        <div class="icons inline-block gutter">
-          <a href="https://dribbble.com/Smartel">
-            <i class="icon i-32">
-              <img class="img-flex" src="images/dribbble-icon-white.svg">
-            </i>
-          </a>
-        </div>
-
-        <div class="icons inline-block">
-          <a href="https://www.instagram.com/scott.martel/">
-            <i class="icon i-32">
-              <img class="img-flex" src="images/instagram-icon-white.svg">
-            </i>
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <p class="text-center push-0">Scott Martel Design</p>
-        <p class="text-center push-0">Website by Scott Martel</p>
-        <address class="text-center push-0"><a href="mailto:hello@smartel.design">Contact me!  hello@smartel.design</a></address>
-      </div>
-
-    </footer>
-
 </main>
+
+{% include footer.html %}
 
 </body>
 </html>
