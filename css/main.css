@@ -5,7 +5,6 @@ html {
 }
 
 a {
-  text-decoration:;
   color: #fff;
   font-style: normal;
 }
@@ -21,6 +20,11 @@ a {
 hr {
   border-color: #C7DA2C;
   border-width: 2px;
+}
+
+h2 {
+  text-decoration: none;
+  border-bottom: 1px solid #C7DA2C;
 }
 
 .project {
@@ -52,6 +56,11 @@ footer {
   position: absolute;
 }
 
+.banner-pad {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -62,10 +71,6 @@ footer {
   h1,
   p {
     margin: 0 0 1.4rem;
-  }
-
-  .banner {
-    padding-left: 2em;
   }
 
 }
@@ -84,6 +89,7 @@ footer {
 
   .banner {
     margin-top: 10em;
+
   }
 
   .overlay:hover .item-name {
@@ -101,6 +107,15 @@ footer {
     position: absolute;
     transition: .3s ease;
     opacity: 0;
+  }
+
+}
+
+@media only screen and (min-width: 70em) {
+
+  .banner-pad {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 
