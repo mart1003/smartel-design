@@ -4,6 +4,12 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+.main-bg {
+  background-image: url("/images/geoblackbird-lines.png");
+  background-repeat: no-repeat;
+
+}
+
 a {
   color: #fff;
   font-style: normal;
@@ -23,8 +29,8 @@ hr {
 }
 
 h2 {
+  padding-top: 1em;
   text-decoration: none;
-  border-bottom: 1px solid #C7DA2C;
 }
 
 .project {
@@ -110,9 +116,15 @@ footer {
     opacity: 0;
   }
 
+  .banner-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
-@media only screen and (min-width: 67em) {
+@media only screen and (min-width: 67
+  em) {
 
   .banner-pad {
     padding-left: 0;
