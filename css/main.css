@@ -4,8 +4,14 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+.main-bg {
+  background-image: url("/images/geoblackbird-lines.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
 a {
-  text-decoration:;
   color: #fff;
   font-style: normal;
 }
@@ -21,6 +27,11 @@ a {
 hr {
   border-color: #C7DA2C;
   border-width: 2px;
+}
+
+h2 {
+  padding-top: 1em;
+  text-decoration: none;
 }
 
 .project {
@@ -52,6 +63,12 @@ footer {
   position: absolute;
 }
 
+.banner-pad {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 2em;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -62,10 +79,6 @@ footer {
   h1,
   p {
     margin: 0 0 1.4rem;
-  }
-
-  .banner {
-    padding-left: 2em;
   }
 
 }
@@ -84,6 +97,7 @@ footer {
 
   .banner {
     margin-top: 10em;
+
   }
 
   .overlay:hover .item-name {
@@ -101,6 +115,21 @@ footer {
     position: absolute;
     transition: .3s ease;
     opacity: 0;
+  }
+
+  .banner-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media only screen and (min-width: 67
+  em) {
+
+  .banner-pad {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 
